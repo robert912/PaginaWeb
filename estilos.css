@@ -3,32 +3,26 @@ body{
     margin: 0;
     padding: 0;
 }
-
 #menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 li{
     list-style: none;
     margin-right: 25px;
 }
-
 .lista{
     display: flex;
 }
-
 .titular{
     text-align: center;
     margin-top: 200px;
 }
-
 h1 {
     font-size: 60px;
     margin: 0;
 }
-
 h2{
     font-size: 25px;
     margin-bottom: 40px;
@@ -40,15 +34,64 @@ a{
     padding: 20px 30px 20px 30px;
     color: white;
 }
-
 header{
     background: url(fondo3.jpg);
     height: 100vh;
     background-size: cover;
 }
-
 .contenedor{
     max-width: 1280px;
     width: 90%;
     margin: auto;
+}
+h3{
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+}
+.contenedorSobreMi{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contenedorParrafoBoton{
+    width: 42%;
+}
+.contenedorParrafo{
+    margin-bottom: 30px;
+}
+
+.contenedorServicios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.servicio{
+    width: 25%;
+    padding: 38px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.violeta{
+    background: #5055df;
+}
+
+.celeste{
+    background: #40a8fa;
+}
+
+.servicio h4{
+    font-size: 30px;
+    margin: 0;
+}
+
+.servicio img{
+    float: right;
+}
+
+.servicio p{
+    font-size: 16px;
 }
