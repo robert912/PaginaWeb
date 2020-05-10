@@ -5,6 +5,8 @@
         <title>Mi Primera Pagina Web</title>
         <link rel="stylesheet" href="estilos.css">
         <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+        <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
     </head>
     <body>
         <header>
@@ -41,7 +43,7 @@
                 </div>
             </div>
         </section>
-        <seccion>
+        <section>
             <h3>Servicios</h3>
             <div class="contenedorServicios">
                 <div class="servicio violeta">
@@ -75,6 +77,61 @@
                     <img src="marketing.png">
                 </div>
             </div>
-        </seccion>
+        </section>
+        <section>
+            <div class="contenedor">
+                <h3>Mis Trabajos</h3>
+              <div class="owl-carousel">
+                <div><img src="foto1.jpg"></div>
+                <div><img src="foto2.jpg"></div>
+                <div><img src="foto3.jpg"></div>
+                <div><img src="foto4.jpg"></div>
+                <div><img src="foto5.jpg"></div>
+              </div>
+            </div>
+        </section>
+        <section>
+            <div class="contenedor">
+                <h3>¿Por que trabajar conmigo?</h3>
+                <div class="contenedor-porque">
+                    <div class="porque-singular">
+                        <img src="velocidad.png">
+                        <h4>Velocidad</h4>
+                        <p>Me aseguro de que tu web cargue entre 2 a 4 segundos</p>
+                    </div>
+                    <div class="porque-singular">
+                        <img src="mantenimiento.png">
+                        <h4>Mantenimiento</h4>
+                        <p>Me aseguro de que tu web cargue entre 2 a 4 segundos</p>
+                    </div>
+                    <div class="porque-singular">
+                        <img src="mobile2.png">
+                        <h4>Mobile Priority</h4>
+                        <p>Me aseguro de que tu web cargue entre 2 a 4 segundos</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <script src="owlcarousel/jquery.min.js"></script>
+        <script src="owlcarousel/owl.carousel.min.js"></script>
+        <script>
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:10,
+                nav:true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:3
+                    },
+                    1000:{
+                        items:4
+                    }
+                }
+            })
+        </script>
     </body>
 </html>

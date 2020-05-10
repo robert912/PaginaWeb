@@ -94,4 +94,33 @@ h3{
 
 .servicio p{
     font-size: 16px;
+    height: 200px;
+}
+
+span{
+    font-size: 80px;
+    color: darkblue;
+}
+
+.owl-nav{
+    text-align: center;
+}
+
+.contenedor-porque{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.contenedor-porque h4{
+    margin: 0;
+    font-size: 20px;
+}
+.contenedor-porque p{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.porque-singular{
+    width: 28%;
 }
