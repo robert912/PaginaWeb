@@ -124,3 +124,73 @@ span{
 .porque-singular{
     width: 28%;
 }
+
+#blog{
+    background: #f9fafc;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.contenedor-publicaciones{
+    display: flex;
+    justify-content: space-around;
+}
+
+.publicaciones{
+    width: 30%;
+    box-shadow: 1px 1px 16px #ccc;
+    padding-bottom: 20px;
+}
+
+#blog img{
+    width: 100%;
+}
+
+#blog h4{
+    font-size: 23px;
+    margin: 0;
+    padding: 20px;
+}
+
+#blog p{
+    color: #5a6561;
+    line-height: 24px;
+    font-size: 16px;
+    padding: 10px 20px 20px 20px;
+    margin: 0;
+}
+
+#blog a{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.publicacion-segunda img {
+    height: 260px;
+}
+
+#que-esperas{
+    background: linear-gradient(rgba(3, 101, 167, 0.96),rgba(95, 186, 219, 0.9));
+    text-align: center;
+    padding: 50px 0px 50px 0px;
+}
+
+#que-esperas h3{
+    font-size: 23px;
+    color: #fff;
+    padding-bottom: 40px;
+}
+
+#que-esperas a{
+    padding: 15px 45px 20px 45px;
+    transition: 1s;
+    transform: scale(1);
+    display: inline-block;
+}
+
+#que-esperas a:hover{
+    color: black;
+    transition: 1s;
+    transform: scale(1.4);
+    display: inline-block;
+}
