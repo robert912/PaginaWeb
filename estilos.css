@@ -202,7 +202,7 @@ span{
     right: 1%;
 }
 
-.menu.icon{
+.menu-icon{
     display: none;
 }
 
@@ -221,7 +221,7 @@ span{
         display: flex;
     }
 
-    .menu.icon{
+    .menu-icon{
         display: block;
     }
 
