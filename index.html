@@ -8,12 +8,14 @@
         <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
         <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
         <script src="https://kit.fontawesome.com/4beaf96f5f.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, user-scalable=no">
     </head>
     <body>
         <header>
             <div class="contenedor">
                 <div id="menu">
                     <p>Roberto Orellana</p>
+                    <img class="menu-icon" src="menu.png" width="25px">
                     <nav>
                         <ul class="lista">
                             <li>Sobre mi</li>
@@ -140,6 +142,11 @@
                 <a href="">CHARLEMOS</a>
             </div>
         </section>
+        <section id="whatsapp">
+            <a href="https://wa.me/56974331446?text=Como%20te%20puedo%20ayudar%20con%20tu%20Pagina%20Web">
+                <img src="whatsapp.png" alt="Whatsapp">
+            </a>
+        </section>
         <script src="owlcarousel/jquery.min.js"></script>
         <script src="owlcarousel/owl.carousel.min.js"></script>
         <script>
@@ -158,6 +165,9 @@
                         items:4
                     }
                 }
+            })
+            $('.menu-icon').click(function(){
+                $('header nav').slideToggle();
             })
         </script>
     </body>

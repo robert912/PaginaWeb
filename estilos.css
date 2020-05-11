@@ -194,3 +194,110 @@ span{
     transform: scale(1.4);
     display: inline-block;
 }
+
+#whatsapp a{
+    background: none;
+    position: fixed;
+    top: 85%;
+    right: 1%;
+}
+
+.menu.icon{
+    display: none;
+}
+
+@media (max-width: 800px){
+    nav{
+        position: absolute;
+        top: 70px;
+        left: 0px;
+        background: lightblue;
+        width: 100%;
+        display: none;
+    }
+
+    nav .lista{
+        flex-direction: column;
+        display: flex;
+    }
+
+    .menu.icon{
+        display: block;
+    }
+
+    .titular{
+        margin-top: 54px;
+    }
+
+    h1{
+        font-size: 49px;
+    }
+    h2{
+        font-size: 19px;
+    }
+
+    .contenedorSobreMi{
+        flex-direction: column;
+    }
+
+    .contenedorParrafoBoton{
+        width: 90%;
+    }
+
+    .contenedorServicios{
+        flex-direction: column;
+    }
+
+    .servicio{
+        width: 72%;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    h3{
+        font-size: 46px;
+    }
+
+    .contenedor-porque{
+        flex-direction: column;
+    }
+
+    .porque-singular{
+        width: 95%;
+    }
+
+    .contenedor-publicaciones{
+        flex-direction: column;
+    }
+
+    .publicaciones{
+        width: 100%;
+        margin: auto;
+    }
+
+    #whatsapp img{
+        width: 50px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 900px){
+    header{
+        height: 53vh;
+    }
+
+    .contenedorSobreMi img{
+        width: 50%;
+    }
+
+    .servicio{
+        width: 44%;
+    }
+    
+    .publicaciones{
+        width: 65%;
+    }
+
+    #whatsapp img {
+        width: 90px;
+    }
+}
