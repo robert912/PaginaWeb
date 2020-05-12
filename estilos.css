@@ -15,6 +15,14 @@ li{
 .lista{
     display: flex;
 }
+
+.lista a{
+    text-decoration: none;
+    padding: 0;
+    background:none;
+    color: black;
+    font-size: 16px;    
+}
 .titular{
     text-align: center;
     margin-top: 200px;
@@ -33,6 +41,7 @@ a{
     background: #5cb8ff;
     padding: 20px 30px 20px 30px;
     color: white;
+    text-decoration: none;
 }
 header{
     background: url(fondo3.jpg);
