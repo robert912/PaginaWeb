@@ -8,6 +8,8 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+#menu p{color: white;}
+
 li{
     list-style: none;
     margin-right: 25px;
@@ -23,6 +25,15 @@ li{
     color: black;
     font-size: 16px;    
 }
+
+.lista a:hover{
+    background: lightblue;
+    color: white;
+    cursor: pointer;
+    padding: 0px 2px 0px 2px;
+
+}
+
 .titular{
     text-align: center;
     margin-top: 200px;
@@ -228,6 +239,13 @@ span{
     nav .lista{
         flex-direction: column;
         display: flex;
+    }
+
+    .lista a:hover{
+        background: lightblue;
+        color: white;
+        cursor: pointer;
+        padding: 0px 4px 0px 4px;
     }
 
     .menu-icon{
